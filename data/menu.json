@@ -1,0 +1,18 @@
+{
+  "currency": "USD",
+  "items": [
+    {"id":"cof-001","name":"Espresso","description":"Rich double shot of espresso.","price":3.00,"category":"Coffee","options":{"sizes":["Single","Double"]},"allergens":[],"dietary":["vegan","gluten-free"],"available":true},
+    {"id":"cof-002","name":"Caffe Latte","description":"Espresso with steamed milk and light foam.","price":4.50,"category":"Coffee","options":{"sizes":["Small","Medium","Large"],"milk":["Whole","Oat","Almond"]},"allergens":["milk"],"dietary":["vegetarian"],"available":true},
+    {"id":"cof-003","name":"Cappuccino","description":"Equal parts espresso, steamed milk and foam.","price":4.25,"category":"Coffee","options":{"sizes":["Small","Medium","Large"],"milk":["Whole","Oat","Almond"]},"allergens":["milk"],"dietary":["vegetarian"],"available":true},
+    {"id":"tea-001","name":"Masala Chai","description":"Black tea simmered with milk and warm spices.","price":3.75,"category":"Tea","options":{"sizes":["Small","Medium","Large"]},"allergens":["milk"],"dietary":["vegetarian"],"available":true},
+    {"id":"tea-002","name":"Green Tea","description":"Classic Japanese-style green tea.","price":3.00,"category":"Tea","options":{"sizes":["Regular"]},"allergens":[],"dietary":["vegan","gluten-free"],"available":true},
+    {"id":"cld-001","name":"Iced Lemon Mint","description":"Fresh lemon, mint and soda over ice.","price":4.00,"category":"Cold Drinks","options":{"sizes":["Medium","Large"]},"allergens":[],"dietary":["vegan","gluten-free"],"available":true},
+    {"id":"cld-002","name":"Mango Smoothie","description":"Blended mango, yogurt and honey.","price":5.50,"category":"Cold Drinks","options":{"sizes":["Medium","Large"]},"allergens":["milk"],"dietary":["vegetarian","gluten-free"],"available":false},
+    {"id":"bur-001","name":"Classic Beef Burger","description":"Grilled beef patty, cheddar, lettuce, tomato and house sauce on a brioche bun.","price":9.50,"category":"Burgers","options":{"extras":["Extra cheese","Bacon"]},"allergens":["gluten","milk","egg","sesame"],"dietary":[],"available":true},
+    {"id":"bur-002","name":"Crispy Chicken Burger","description":"Fried chicken fillet, slaw and mayo on a toasted bun.","price":8.75,"category":"Burgers","options":{"extras":["Extra cheese","Jalapenos"]},"allergens":["gluten","egg","sesame"],"dietary":[],"available":true},
+    {"id":"san-001","name":"Grilled Cheese Sandwich","description":"Cheddar and mozzarella on toasted sourdough.","price":6.50,"category":"Sandwiches","options":{"extras":["Tomato","Caramelized onion"]},"allergens":["gluten","milk"],"dietary":["vegetarian"],"available":true},
+    {"id":"san-002","name":"Chicken Club Sandwich","description":"Roast chicken, lettuce, tomato and mayo on multigrain bread.","price":8.00,"category":"Sandwiches","options":{},"allergens":["gluten","egg"],"dietary":[],"available":true},
+    {"id":"des-001","name":"Chocolate Brownie","description":"Dense fudge brownie with walnuts.","price":4.25,"category":"Desserts","options":{"extras":["Vanilla ice cream"]},"allergens":["gluten","milk","egg","nuts"],"dietary":["vegetarian"],"available":true},
+    {"id":"des-002","name":"Blueberry Cheesecake","description":"Baked cheesecake slice with blueberry compote.","price":5.75,"category":"Desserts","options":{},"allergens":["gluten","milk","egg"],"dietary":["vegetarian"],"available":true}
+  ]
+}

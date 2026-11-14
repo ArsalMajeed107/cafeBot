@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CafeBot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div class="logo" aria-hidden="true">C</div>
+      <div>
+        <h1>CafeBot</h1>
+        <p>Order your coffee and bites by chat</p>
+      </div>
+    </header>
+
+    <section id="chat" class="chat" aria-live="polite"></section>
+
+    <div id="chips" class="chips"></div>
+
+    <form id="composer" class="composer">
+      <input id="input" type="text" placeholder="Type your order…" autocomplete="off" aria-label="Message">
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
